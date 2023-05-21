@@ -3,7 +3,7 @@ import jwt from '@fastify/jwt'
 import multipart from '@fastify/multipart'
 import 'dotenv/config'
 import fastify from 'fastify'
-import { resolve } from 'path'
+import { resolve } from 'node:path'
 import { authRoutes } from './routes/auth'
 import { memoriesRoutes } from './routes/memories'
 import { uploadRoutes } from './routes/upload'
@@ -26,11 +26,10 @@ app.register(memoriesRoutes)
 app.get('/', async (req) => {
   return { message: 'Hello world.' }
 })
-
 app
   .listen({
     port: 3333,
-    host: '0.0.0.0',
+    host: 'localhost',
   })
   .then(() => {
     console.log(' 🚀 HTTP server running on http://localhost:3333 🚀')
