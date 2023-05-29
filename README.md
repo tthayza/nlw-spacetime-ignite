@@ -7,7 +7,7 @@
   <img src="./.github/preview.png">
 </p>
 
-<h2><em> Funcionalidades</em> </h2>
+<h2><b> Funcionalidades</b> </h2>
 
 <h3><strong>✅ Autenticação com GitHub</h3></strong>
 
@@ -23,6 +23,29 @@
 
 #
 
-#### <h3 align="center"> Esse projeto foi desenvolvido com </h3>
+<h2><b> Utilizando localmente </b> </h2>
 
-### <p align="center"> **TypeScript | TailwindCSS | React | Next.js | Prisma | Zod | Figma | Node.js | Git | GitHub** </p>
+<p>Para rodar o projeto em sua máquina local basta clonar o projeto, acessar as pastas e instalar as dependências seguindo os seguintes comandos em seu terminal de preferência: </p>
+
+<h4><strong>Para o server:</strong></h4>
+
+<pre>
+git clone https://github.com/tthayza/ nlw-spacetime-ignite.git 
+cd nlw-spacetime-ignite
+cd server
+npm install
+npm run dev
+</pre>
+
+<h4><strong>Para a web:</strong></h4>
+<pre>
+cd ..
+cd web 
+npm install
+npm run dev
+</pre>
+<hr>
+<h2><b> Tecnologias Utilizadas</b></h2>
+ <h3 > Esse projeto foi desenvolvido com as seguintes tecnologias: </h3>
+
+<p align='center'>TypeScript  |  TailwindCSS  |  React  |  Next.js 13  |  NextAuth  |  Prisma  |  Figma  |  Fastify </p>
